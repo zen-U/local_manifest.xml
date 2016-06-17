@@ -12,13 +12,15 @@
 
 <project name="kbc-developers/android_kernel_samsung_klte" path="kernel/samsung/klte" remote="github" />
 
-<project name="CyanogenMod/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" />
+ <project name="CyanogenMod/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" />
 
 <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
 
 <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" />
 
 <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
+
+<project name="kbc-developers/android_vendor_cm" path="vendor/cm" remote="github" />
 
 <project name="kbc-developers/android_vendor_aojp" path="vendor/aojp" remote="github" >
 <copyfile src="build.sh" dest="build.sh" />
@@ -29,4 +31,4 @@
 
 <project name="omnirom/android_external_busybox" revision="android-6.0" path="external/busybox" remote="github"/>
 
-</manifest>
+</manifest>あ
