@@ -2,31 +2,31 @@
 
 <manifest>
 
-<project remote="github" path="vendor/samsung" name="kbc-developers/proprietary_vendor_samsung"/>
+<project name="kbc-developers/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
 
-<project remote="github" path="hardware/samsung" name="CyanogenMod/android_hardware_samsung"/>
+<project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
-<project remote="github" path="device/samsung/klte-common" name="kbc-developers/android_device_samsung_klte-common"/>
+<project name="kbc-developers/android_device_samsung_klte-common" path="device/samsung/klte-common" remote="github" />
 
-<project remote="github" path="device/samsung/kltedcm" name="zen-U/android_device_samsung_kltedcm"/>
+<project name="zen-U/android_device_samsung_kltedcm" path="device/samsung/kltedcm" remote="github" />
 
-<project remote="github" path="kernel/samsung/klte" name="kbc-developers/android_kernel_samsung_klte"/>
+<project name="kbc-developers/android_kernel_samsung_klte" path="kernel/samsung/klte" remote="github" />
 
- <project remote="github" path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common"  />
+<project name="CyanogenMod/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" />
 
-<project remote="github" path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" />
+<project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
 
-<project remote="github" path="external/stlport" name="CyanogenMod/android_external_stlport"/>
+<project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" />
 
-<project remote="github" path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
+<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
 
-<project remote="github" name="kbc-developers/android_vendor_aojp" path="vendor/aojp" >
+<project name="kbc-developers/android_vendor_aojp" path="vendor/aojp" remote="github" >
 <copyfile src="build.sh" dest="build.sh" />
 <copyfile src="build_twrp.sh" dest="build_twrp.sh" />
 </project>
 
 <!-- twrp -->
 
-<project remote="github" path="external/busybox" name="omnirom/android_external_busybox" revision="android-6.0"/>
+<project name="omnirom/android_external_busybox" revision="android-6.0" path="external/busybox" remote="github"/>
 
 </manifest>
