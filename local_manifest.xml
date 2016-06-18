@@ -20,8 +20,6 @@
 
 <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
 
-<project name="kbc-developers/android_vendor_cm" path="vendor/cm" remote="github" />
-
 <project name="kbc-developers/android_vendor_aojp" path="vendor/aojp" remote="github" >
 <copyfile src="build.sh" dest="build.sh" />
 <copyfile src="build_twrp.sh" dest="build_twrp.sh" />
