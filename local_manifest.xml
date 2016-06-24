@@ -29,7 +29,7 @@
 <copyfile src="build_twrp.sh" dest="build_twrp.sh" />
 </project>
 
-
+<!-- sc03e -->
 <project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
 
 <project name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="github" />
@@ -38,7 +38,7 @@
 
 <project name="zen-U/android_device_samsung_sc03e" path="device/samsung/sc03e" remote="github" />
 
-
+<!-- twrp -->
 <project name="omnirom/android_external_busybox" revision="android-6.0" path="external/busybox" remote="github"/>
 
 </manifest>
