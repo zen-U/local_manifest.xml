@@ -36,7 +36,7 @@
 
 <project name="kbc-developers/kernel_samsung_exynos4412" path="kernel/samsung/exynos4412dcm" remote="github" />
 
-<project name="zen-U/android_device_samsung_sc03e" path="device/samsung/sc03e" remote="github" />
+<project name="kbc-developers/android_device_samsung_sc03e" path="device/samsung/sc03e" remote="github" />
 
 <!-- twrp -->
 
