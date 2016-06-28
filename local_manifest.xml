@@ -32,13 +32,16 @@
 <!-- sc03e -->
 <project name="zen-U/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
 
-<project name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="github" />
+<project name="kbc-developers/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="github" />
 
 <project name="kbc-developers/kernel_samsung_exynos4412" path="kernel/samsung/exynos4412dcm" remote="github" />
 
 <project name="zen-U/android_device_samsung_sc03e" path="device/samsung/sc03e" remote="github" />
 
 <!-- twrp -->
+
 <project name="omnirom/android_external_busybox" revision="android-6.0" path="external/busybox" remote="github"/>
+
+<project name="omnirom/android_bootable_recovery" revision="android-6.0" path="bootable/recovery-twrp" remote="github"/>
 
 </manifest>
