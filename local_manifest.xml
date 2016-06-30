@@ -39,9 +39,8 @@
 <project name="kbc-developers/android_device_samsung_sc03e" path="device/samsung/sc03e" remote="github" />
 
 <!-- twrp -->
-<remove-project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" />
-
 <project name="omnirom/android_bootable_recovery" revision="android-6.0" path="bootable/recovery" remote="github"/>
 
+<project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" />
 
 </manifest>
